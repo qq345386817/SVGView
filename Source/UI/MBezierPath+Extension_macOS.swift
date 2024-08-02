@@ -28,7 +28,7 @@ public struct MRectCorner: OptionSet {
     }
 }
 
-extension MBezierPath {
+public extension MBezierPath {
 
     public var cgPath: CGPath {
         let path = CGMutablePath()
